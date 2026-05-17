@@ -138,10 +138,10 @@ s.t. yᵢ(w·xᵢ + b) ≥ 1 − ξᵢ,  ξᵢ ≥ 0
 
 | Metric | Intra-subject (chb01) |
 |---|---|
-| Accuracy | **99.92%** |
-| Precision | 99.8% |
-| Recall | 100% |
-| F1-Score | 99.9% |
+| Accuracy | **98%** |
+| Precision | 96% |
+| Recall | 17% |
+| F1-Score | 98% |
 
 > ⚠️ **Limitation:** Cross-subject generalisation is poor — the model trained on one patient fails on unseen patients due to inter-individual EEG variability. Phase 2 addresses this with domain adaptation and leave-one-subject-out evaluation.
 
