@@ -104,13 +104,6 @@ streamlit run app.py
 
 Upload any `.edf` file and get a segment-by-segment prediction table with seizure timestamps.
 
-### Run via Docker
-
-```bash
-docker build -t eeg-seizure-app .
-docker run -p 8501:8501 eeg-seizure-app
-```
-
 ---
 
 ## 🔬 Methodology
