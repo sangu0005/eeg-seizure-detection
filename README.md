@@ -38,19 +38,12 @@ eeg-seizure-detection/
 │   ├── 02_feature_extraction.ipynb
 │   └── 03_model_training.ipynb
 │
-├── src/
-│   ├── preprocess.py           # EDF reading, segmentation, labelling
-│   ├── features.py             # Time-domain feature extraction
-│   ├── train.py                # SVM training + GridSearchCV
-│   └── predict.py              # Inference on new EDF files
-│
 ├── models/
 │   ├── svm_model.pkl           # Serialised trained model
 │   └── scaler.pkl              # Fitted StandardScaler
 │
 ├── app.py                      # Streamlit web application
 ├── requirements.txt
-├── Dockerfile
 └── README.md
 ```
 
