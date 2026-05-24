@@ -34,9 +34,7 @@ eeg-seizure-detection/
 │   └── README.md              # Instructions to download CHB-MIT dataset
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb            # Exploratory data analysis
-│   ├── 02_feature_extraction.ipynb
-│   └── 03_model_training.ipynb
+│   ├── eeg_seizure_detection.ipynb   
 │
 ├── models/
 │   ├── svm_model.pkl           # Serialised trained model
